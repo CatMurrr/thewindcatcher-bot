@@ -24,7 +24,7 @@ threading.Thread(target=run_flask).start()
 
 # ---------- Дискорд ----------
 TOKEN = os.getenv("TOKEN")
-GUILD_ID = 123456789  # <- замени на ID твоего сервера
+GUILD_ID = 1219198973475160074  # <- замени на ID твоего сервера
 
 ROLE_MALE = "ᯓ★котᯓ★"
 ROLE_FEMALE = "ᯓ❀кошкаᯓ❀"
@@ -283,3 +283,4 @@ async def on_ready():
     print("Дух леса пробудился.")
 
 bot.run(TOKEN)
+
